@@ -39,10 +39,7 @@ namespace WindowsFormsApplication1
             IniFile ustawienia = new IniFile(sciezka+"\\test.ini");
 
 
-            if ((ustawienia.IniReadValue("ustawienia", "szczegoly")) == "FALSE")
-            {
-                label3.Visible = false;
-            }
+          
 
 
 
@@ -75,7 +72,7 @@ namespace WindowsFormsApplication1
             UTF8Encoding objUTF8 = new UTF8Encoding();
             
 
-            label3.Text = index.ToString();
+        
 
             String zrodlo_profilu;
 
@@ -354,7 +351,7 @@ namespace WindowsFormsApplication1
 
         private void trackBar1_ValueChanged(object sender, EventArgs e)
         {
-            label2.Text = trackBar1.Value.ToString();
+          
         }
 
        

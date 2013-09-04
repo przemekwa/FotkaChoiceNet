@@ -28,3 +28,16 @@ E:\Dokumenty\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.exe.
 E:\Dokumenty\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.application
 E:\Dokumenty\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.exe
 E:\Dokumenty\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.pdb
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.csproj.GenerateResource.Cache
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.exe
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\bin\Release\fotka.pl.exe.config
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\bin\Release\fotka.pl.exe.manifest
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\bin\Release\fotka.pl.application
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\bin\Release\fotka.pl.exe
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\bin\Release\fotka.pl.pdb
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.TrustInfo.xml
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.exe.manifest
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.application
+D:\Dropbox\c#\Projects\fotka.pl\fotka.pl\obj\x86\Release\fotka.pl.pdb
