@@ -33,12 +33,6 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
 
-
-
-
-            IniFile ustawienia = new IniFile(sciezka+"\\test.ini");
-
-
           
 
 
@@ -80,8 +74,8 @@ namespace WindowsFormsApplication1
 
             StreamWriter write2 = new StreamWriter(sciezka + "\\profil.txt");
             write2.WriteLine(objUTF8.GetString(reqHTML));
-            System.Console.WriteLine("Wczytano " + index + " profil");
-            write2.Close();
+           write2.Close();
+
 
             StreamReader read = new StreamReader(sciezka+"\\profil.txt");
 
@@ -91,20 +85,22 @@ namespace WindowsFormsApplication1
                 if (zrodlo_profilu != null)
                 {
 
-                    if (szukaj("onclick=\"ctrlClickGO", zrodlo_profilu))
+                    if (szukaj("class=\"zdjecie", zrodlo_profilu))
                     {
                         zrodlo_profilu = read.ReadLine();
-                        zrodlo_profilu = read.ReadLine();
+                      
 
                         czy_jest = true;
                         if (strona)
                         {
 
-                            string adres = (zrodlo_profilu.Substring(5, zrodlo_profilu.Length - 1 - 5)).ToString();
+                            string adres = (zrodlo_profilu.Substring(10, zrodlo_profilu.LastIndexOf("jpg") - 7 )).ToString();
                             pictureBox2.Load(adres);
                             strona = false;
-                          linkLabel1.Text = loginy[index];
-                          System.Console.WriteLine("Wczytano obrazek " + index + "-go profilu");
+                            linkLabel1.Text = loginy[index];
+                            break;
+
+                        
 
 
 
@@ -114,12 +110,13 @@ namespace WindowsFormsApplication1
                         }
                         else
                         {
-                            
-                            string adres = (zrodlo_profilu.Substring(5, zrodlo_profilu.Length - 1 - 5)).ToString();
+
+                            string adres = (zrodlo_profilu.Substring(10, zrodlo_profilu.LastIndexOf("jpg") - 7)).ToString();
                             pictureBox1.Load(adres);
                             strona = true;
                             linkLabel2.Text = loginy[index];
-                            System.Console.WriteLine("Wczytano obrazek " + index + "-go profilu");
+                            break;
+                          
                          }
                     }
 
@@ -344,15 +341,9 @@ namespace WindowsFormsApplication1
             return count;
         }
 
-        private void trackBar1_CursorChanged(object sender, EventArgs e)
-        {
-            
-        }
+     
 
-        private void trackBar1_ValueChanged(object sender, EventArgs e)
-        {
-          
-        }
+     
 
        
 
