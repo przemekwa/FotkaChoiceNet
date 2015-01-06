@@ -1,5 +1,0 @@
-D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApi\bin\Debug\FotkaNetApi.dll
-D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApi\bin\Debug\FotkaNetApi.pdb
-D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApi\obj\Debug\FotkaNetApi.csprojResolveAssemblyReference.cache
-D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApi\obj\Debug\FotkaNetApi.dll
-D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApi\obj\Debug\FotkaNetApi.pdb
