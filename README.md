@@ -12,7 +12,7 @@ Projekt składa się z 3 części:
 * <b>FotkaNetApiTest</b> jest to zbiór testów do aplikacji.
 
 
-***Szybki start:
+**Szybki start:
 
 * Aplikacja fotka.pl jest to aplikacja napisana w .NET 4.5, wymaga połączenia z internetem. Nie trzeba być mieć konta na http://fotka.pl. Aplikaca ładuje zestaw profili ze strony http://www.fotka.pl/online/kobiety,1-30 a następnie pobiera zdjecia z tych profili. Pobiera pierwsze zdjęcie z galerii użytkownika. 
 
