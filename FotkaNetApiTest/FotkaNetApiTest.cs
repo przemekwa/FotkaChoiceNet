@@ -30,7 +30,7 @@ namespace FotkaNetApiTest
             var fullProfiles = new List<Profile>();
 
 
-            profiles.ToList().ForEach(p =>
+            profiles.Take(10).ToList().ForEach(p =>
                 {
                     fullProfiles.Add(fotkaApi.GetProfile(p.Name));
                 });
