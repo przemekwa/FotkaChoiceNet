@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FotkaNetApi;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace FotkaNetApiTest
 {
@@ -14,7 +16,7 @@ namespace FotkaNetApiTest
 
             var profiles = fotkaApi.GetOnLineProfiles();
 
-            Assert.AreNotEqual(0, profiles.Count);
+            Assert.AreNotEqual(0, profiles.ToList().Count);
 
         }
 
@@ -23,11 +25,21 @@ namespace FotkaNetApiTest
         {
             var fotkaApi = new FotkaApi();
 
-            var profile = fotkaApi.GetProfile("ktos");
+            var profiles = fotkaApi.GetOnLineProfiles();
 
-            Assert.AreNotEqual(true, string.IsNullOrEmpty(profile.Name));
-            Assert.AreNotEqual(true, string.IsNullOrEmpty(profile.PhotoUrl));
+            var fullProfiles = new List<Profile>();
 
+
+            profiles.ToList().ForEach(p =>
+                {
+                    fullProfiles.Add(fotkaApi.GetProfile(p.Name));
+                });
+
+            fullProfiles.ForEach(fp=>
+                {
+                      Assert.AreNotEqual(true, string.IsNullOrEmpty(fp.Name));
+                      Assert.AreNotEqual(true, string.IsNullOrEmpty(fp.PhotoUrl));
+                });
         }
     }
 }
