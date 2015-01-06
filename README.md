@@ -12,12 +12,17 @@ Projekt składa się z 3 części:
 * <b>FotkaNetApiTest</b> jest to zbiór testów do aplikacji.
 
 
-**Szybki start:
+###Szybki start:
 
 * Aplikacja fotka.pl jest to aplikacja napisana w .NET 4.5, wymaga połączenia z internetem. Nie trzeba być mieć konta na http://fotka.pl. Aplikaca ładuje zestaw profili ze strony http://www.fotka.pl/online/kobiety,1-30 a następnie pobiera zdjecia z tych profili. Pobiera pierwsze zdjęcie z galerii użytkownika. 
 
-Pobiera dwa profile i dwa zdjęcia a następnie wyświetla je użytkownikowi aby wybrał (czyli kliknoł) to które mu się podoba.
+Aplikacja pobiera dwa zdjęcia (jedno dla każdego profilu) a następnie wyświetla je użytkownikowi aby wybrał (czyli kliknął) to które mu się podoba.
 
+* FotkaNetApi to biblioteka w C#, która udostępnia 2 metody.
+ 1. GetOnLineProfiles - pobiera ze strony http://www.fotka.pl/online/kobiety,1-30 wszystkie nazwy użytkowników i zwraca listę obiektów Profile z wypełnionym atrybutem Name.
+ 2. GetProfile - pobiera adres Url zdjęcia użytkownika. Jest to pierwsze zdjęcie z jego galeri. 
+ 
+Projekt jest sukcesywanie rozwijany. W planach jest rozwój API i rozwój aplikacji.
 
 
 
