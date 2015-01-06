@@ -23,36 +23,17 @@ namespace WindowsFormsApplication1
         int z = 2;
         int strona_profili = 0;
         bool czy_jest = false;
-
         
         String zrodlo;
-
-       
 
         public Form1()
         {
             InitializeComponent();
 
-          
-
-
-
-
-
-          
             Laduj_strone(strona_profili.ToString());
             Laduj_dane();
             nastepne(loginy, 0, true);
             nastepne(loginy, 1, false);
-         
-
-
-
-            
-
-
-          
-          
         }
 
      
@@ -67,7 +48,7 @@ namespace WindowsFormsApplication1
             
 
         
-
+            
             String zrodlo_profilu;
 
        
@@ -82,6 +63,7 @@ namespace WindowsFormsApplication1
             for (int x = 0; x < LiczbaLiniiWPliku(sciezka + "\\profil.txt"); x++)
             {
                 zrodlo_profilu = read.ReadLine();
+
                 if (zrodlo_profilu != null)
                 {
 
@@ -99,14 +81,6 @@ namespace WindowsFormsApplication1
                             strona = false;
                             linkLabel1.Text = loginy[index];
                             break;
-
-                        
-
-
-
-                           
-
-
                         }
                         else
                         {
@@ -119,17 +93,7 @@ namespace WindowsFormsApplication1
                           
                          }
                     }
-
-
-
-
-
-
-
-
-
                   }
-
             }
 
             if (czy_jest == false)

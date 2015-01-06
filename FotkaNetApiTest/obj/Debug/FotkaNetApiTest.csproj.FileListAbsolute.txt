@@ -1,0 +1,7 @@
+D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApiTest\bin\Debug\FotkaNetApiTest.dll
+D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApiTest\bin\Debug\FotkaNetApiTest.pdb
+D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApiTest\bin\Debug\FotkaNetApi.dll
+D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApiTest\bin\Debug\FotkaNetApi.pdb
+D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApiTest\obj\Debug\FotkaNetApiTest.csprojResolveAssemblyReference.cache
+D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApiTest\obj\Debug\FotkaNetApiTest.dll
+D:\Dropbox\c#\Projects\fotka.pl\FotkaNetApiTest\obj\Debug\FotkaNetApiTest.pdb
