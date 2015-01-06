@@ -8,6 +8,6 @@ namespace FotkaNetApi
 {
     interface IProfileBuldier
     {
-        Profile Build();
+        Profile Build(Profile profile);
     }
 }
