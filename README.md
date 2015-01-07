@@ -14,7 +14,7 @@ Projekt składa się z 3 części:
 
 ###Szybki start:
 
-* Aplikacja fotka.pl jest to aplikacja napisana w .NET 4.5, wymaga połączenia z internetem. Nie trzeba  mieć konta na http://fotka.pl. Aplikaca ładuje zestaw profili ze strony http://www.fotka.pl/online/kobiety,1-30 a następnie pobiera zdjęcia z tych profili. Pobiera pierwsze zdjęcie z galerii użytkownika. 
+* Aplikacja fotka.pl jest to aplikacja napisana w .NET 4.5, wymaga połączenia z internetem. Nie trzeba  mieć konta na http://fotka.pl. Aplikacja ładuje zestaw profili ze strony http://www.fotka.pl/online/kobiety,1-30 a następnie pobiera zdjęcia z tych profili. Pobiera pierwsze zdjęcie z galerii użytkownika. 
 
 Aplikacja pobiera dwa zdjęcia (jedno dla każdego profilu) a następnie wyświetla je użytkownikowi aby wybrał (czyli kliknął) to które mu się podoba.
 
