@@ -9,7 +9,7 @@ namespace FotkaNetApi
 {
     static class FotkaApiHelper
     {
-        public static string GetProfilesData(string url)
+        public static string GetProfilesHtml(string url)
         {
             WebClient webClient = new WebClient();
 
